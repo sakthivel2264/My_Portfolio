@@ -68,7 +68,7 @@ section{
 .navbar a:hover,
 .navbar a.active{
     color:  var(--main_color);
-
+    
 }
 
 #menu-icon{
@@ -271,13 +271,7 @@ span{
     margin:1re 0 3rem  ;
 }
 
-.project{
-    background-color: rgba(0, 0, 0, 0.5);
 
-}
-.project h2{
-    margin-bottom: 4rem;
-}
 
 
 
@@ -315,12 +309,12 @@ span{
     box-shadow: 0 0 1rem var(--main_color);
 }
 
-@media (max-width:1200px){
+@media (max-width:600px){
     html{
         font-size: 55%;
     }
 }
-@media (max-width:991px){
+@media (max-width:600px){
     .header{
         padding: 2rem 3%;
     }
@@ -340,7 +334,7 @@ span{
         padding: 2rem 3%;
     }
 }
-@media (max-width:768px){
+@media (max-width:600px){
     #menu-icon{
         display: block;
     }
@@ -357,6 +351,7 @@ span{
     }
     .navbar.active{
         display: block;
+        background-color: rgba(0, 0, 0, 0.5);
     }
     .navbar a{
         display: block;
@@ -389,15 +384,10 @@ span{
      margin-bottom: 3rem;   
     }
 
-    .portfolio h2{
-        margin-bottom: 3rem;
-    }
-    .portfolio-container{
-        grid-template-columns: repeat(2,1fr);
-        
-    }
+
+    
 }
-@media (max-width:617px){
+@media (max-width:600px){
 
     .portfolio-container{
         grid-template-columns:repeat(1,1fr);
