@@ -102,11 +102,11 @@ section{
     font-size: 3.5rem;
     font-weight: 700;
     margin-left: -6%;
-    color: #fff;
+    color: #ffffff;
   overflow: hidden;  
   white-space: nowrap;  
   animation: 
-    typing 2.0s steps(30, end),
+    typing 2.0s steps(0, end),
     blink-caret .5s step-end infinite;
 
 

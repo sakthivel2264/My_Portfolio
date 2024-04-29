@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-text">
-        <p>&copy; 2023 Sakthivel | All rights reserved</p>
+        <p>&copy; {new Date().getFullYear()} Sakthivel Pandiyan | All rights reserved</p>
       </div>
       <div className="footer-iconTop">
           <a href="#home"><i className='bx bx-up-arrow-alt' ></i></a>
